@@ -1,0 +1,42 @@
+.list-a li:nth-child(2) {
+    animation: float 3s ease-in-out infinite 2.4s;
+}
+
+.list-a li:nth-child(3) {
+    animation: float 3s ease-in-out infinite 2.8s;
+}
+
+.list-b {
+    transform: translateY(80vh);
+    animation: arise 1s ease-out forwards 0.6s, float 3s ease-in-out infinite 1.6s;
+}
+
+.list-b li:nth-child(2) {
+    animation: float 3s ease-in-out infinite 2s;
+}
+
+.list-b li:nth-child(3) {
+    animation: float 3s ease-in-out infinite 2.4s;
+}
+
+.hello-world{
+    animation: arise 1s ease;
+}   
+
+#hand {
+    transform: translateY(80vh);
+    animation: arise 1s ease forwards 0.4s;
+}
+
+.circle {
+    transform: translateY(80vh);
+    animation: arise 1s ease forwards;
+    animation-delay: 0.2s;
+}
+
+.page-name h1 {
+    overflow: hidden;
+    animation: typewriter 2s steps(13) infinite alternate-reverse,
+        blink 800ms steps(13) infinite normal;
+    border-right: 1px solid black;
+}

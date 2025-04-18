@@ -1,0 +1,47 @@
+@keyframes typewriter {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 110%;
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: black;
+    }
+
+    to {
+        border-color: transparent;
+    }
+}
+
+@keyframes arise {
+    0% {
+        transform: translateY(80vh);
+    }
+
+    80% {
+        transform: translateY(-1vh);
+    }
+
+    100% {
+        transform: translateY(0vh);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0vh);
+    }
+
+    50% {
+        transform: translateY(-4vh);
+    }
+
+    100% {
+        transform: translateY(0vh);
+    }
+}
