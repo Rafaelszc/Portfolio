@@ -68,3 +68,10 @@
     scale: 1.11;
 }
 
+.social-medias li:hover {
+    transform: translateY(-0.5vh);
+}
+
+.social-medias li {
+    transition: ease 0.2s;
+}

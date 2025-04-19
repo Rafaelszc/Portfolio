@@ -261,3 +261,27 @@ main {
     opacity: 0;
     visibility: hidden;
 }
+
+footer {
+    height: 20vh;
+    background-color: var(--li-gray);
+    border-top: solid 1px var(--white);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .licenses {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    list-style-type: none;
+}
+
+footer .social-medias ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+    list-style-type: none;
+}
