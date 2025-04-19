@@ -8,6 +8,7 @@
     --white: #d5d5d5;
     --purple: #9e57b7;
     --green: #9AB858;
+    scroll-behavior: smooth;
 }
 
 * {
