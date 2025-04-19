@@ -3,6 +3,8 @@
 
 :root {
     --sh-gray: #1c1e21;
+    --li-gray: #212325;
+    --shadow: #2a2b2b;
     --white: #d5d5d5;
     --purple: #9e57b7;
     --green: #9AB858;
@@ -20,12 +22,15 @@ body {
 }
 
 body > :not(header) {
-    margin-inline: 5vh;
+    padding-inline: 5vh;
     overflow-x: hidden;
 }
 
 header {
-    position: -webkit-sticky;
+    position: sticky;
+    background-color: var(--sh-gray);
+    z-index: 100;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -48,6 +53,11 @@ nav li {
 
 nav li:hover{
     transform: translateY(-0.5vh);
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .page-name h1 {
@@ -75,6 +85,7 @@ nav li:hover{
 main {
     display: flex;
     height: 80vh;
+    overflow-y: hidden;
 }
 
 .hello-world {
@@ -89,7 +100,6 @@ main {
 .hello-world h1 span {
     color: var(--purple);
 }
-
 
 .col-a {
     display: flex;
@@ -143,6 +153,111 @@ main {
 .list-a {
     top: 15vh;
     left: 3vh;
-    transform: translateY(80vh);
-    animation: arise 1.4s ease-out forwards 0.6s, float 3s ease-in-out infinite 2s;
+}
+
+#about-me {
+    margin-top: 20vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--white);
+    background-color: var(--li-gray);
+    gap: 20vh;
+    align-items: center;
+}
+
+.me-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    border-radius: 2vh;
+    background-color: var(--shadow);
+    box-shadow: 0px 0px 5px var(--shadow);
+    transition: 1s ease;
+}
+
+.me-img img {
+    height: 60vh;
+    border-radius: 2vh;
+    transition: 1s ease 0.2s;
+}
+
+#about-me .text {
+    width: 50%;
+}
+
+.text h1 {
+    font-size: 3rem;
+    line-height: 6rem;
+}
+
+#projects {
+    margin-top: 10vh;
+    gap: 5vh;
+    height: 220vh;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+}
+
+.proj {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: var(--white);
+    height: 90vh;
+    width: 60vh;
+    background-color: var(--li-gray);
+    box-shadow: 0px 0px 10px var(--shadow);
+    border-radius: 1vh;
+    gap: 2vh;
+    transition: ease 0.5s;
+}
+
+.proj span {
+    margin-top: 2vh;
+}
+
+.proj img {
+    border-radius: 2vh;
+    margin-top: 4vh;
+    height: 50vh;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container a {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    height: 50vh;
+    width: 50vh;
+    object-fit: cover;
+}
+
+#git-logo {
+    height: 10vh;
+    width: 10vh;
+    position: absolute;
+    background-color: var(--sh-gray);
+    padding: 1vh;
+    border-radius: 50%;
+    filter: invert(1);
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
 }
