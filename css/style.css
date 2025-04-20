@@ -37,7 +37,7 @@ header {
     justify-content: space-between;
     height: 8vh;
     margin-top: 0.5vh;
-    margin-inline: 2vh;
+    padding-inline: 2vh;
     font-size: 1rem;
 }
 
