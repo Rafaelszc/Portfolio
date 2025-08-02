@@ -1,11 +1,11 @@
 {
   "name": "portifolio",
   "private": true,
-  "version": "0.1.0",
-  "homepage": "https://rafaelszc.github.io/Portifolio/",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -15,8 +15,7 @@
     "lucide-react": "^0.523.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router-dom": "^7.6.2",
-    "swiper": "^11.2.8"
+    "react-router-dom": "^7.6.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
