@@ -3,35 +3,35 @@ export const Projects = () => {
         {
             name: "CoffeeBabe",
             description: "A cafeteria application with modern design and oAuth2 authentication. ☕",
-            image: "/images/projects/coffeebabe.png",
+            image: "images/projects/coffeebabe.png",
             url: "https://github.com/Rafaelszc/CoffeeBabe",
             skills: ["React", "Tailwind", "Spring Boot", "PostgreSQL"]
         },
         {
             name: "GymSup Calculator",
             description: "A macronutrient calculator website with a clean design. 🍎",
-            image: "/images/projects/gymsup.png",
+            image: "images/projects/gymsup.png",
             url: "https://github.com/Rafaelszc/GymSup-Calculator",
             skills: ["React", "Tailwind", "Spring Boot", "PostgreSQL"]
         },
         {
             name: "MyConfigs",
             description: "Configuration script for Fedora Linux.  🔧",
-            image: "/images/projects/myconfigs.png",
+            image: "images/projects/myconfigs.png",
             url: "https://github.com/Rafaelszc/my_configs",
             skills: ["Python", "Bash", "Makefile", "Linux"]
         },
         {
             name: "Discord Discount Bot",
             description: "A Discord bot for finding discounts at the KaBum! store. 💸",
-            image: "/images/projects/discord-discount.png",
+            image: "images/projects/discord-discount.png",
             url: "https://github.com/Rafaelszc/discord-discount-bot",
             skills: ["Python", "Discord API", "SQLite", "Beautifullsoup"]
         },
         {
             name: "IBGE Data Extract",
             description: "A automated script that extracts municipal data from IBGE. 📊",
-            image: "/images/projects/ibge-dt-ex.png",
+            image: "images/projects/ibge-dt-ex.png",
             url: "https://github.com/Rafaelszc/IBGE-data-extract",
             skills: ["Python", "Beautifullsoup", "Pandas", "SQLite"]
         },
@@ -43,7 +43,7 @@ export const Projects = () => {
                 <div className="relative flex justify-center items-center">
                     <img className="object-cover h-72 rounded-lg  transition transform duration-700 group-hover:opacity-50" src={p.image} alt={p.name}/>
                     <a className="absolute" target="_blank" href={p.url}>
-                        <img className="h-16 bg-black rounded-full p-1 invert opacity-0 transition transform duration-700 group-hover:opacity-100 hover:invert-0" src="/icons/github-mark.webp" alt="" />
+                        <img className="h-16 bg-black rounded-full p-1 invert opacity-0 transition transform duration-700 group-hover:opacity-100 hover:invert-0" src="icons/github-mark.webp" alt="" />
                     </a>
                 </div>
                 <span className="text-2xl font-bold">{p.name}</span>

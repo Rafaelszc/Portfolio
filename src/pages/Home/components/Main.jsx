@@ -1,18 +1,17 @@
 export const Main = () => {
     const langs = [
-        {alt: 'Java', src: '/images/langs/java.webp', delay: '0.5s'},
-        {alt: 'Python', src: '/images/langs/python.webp',  delay: '0.4s'},
-        {alt: 'JavaScript', src: '/images/langs/javascript.webp', delay: '0.7s'}
+        {alt: 'Java', src: 'images/langs/java.webp', delay: '0.5s'},
+        {alt: 'Python', src: 'images/langs/python.webp',  delay: '0.4s'},
+        {alt: 'JavaScript', src: 'images/langs/javascript.webp', delay: '0.7s'}
     ]
 
     const technologies = [
-        {alt: 'React', src: '/images/langs/react.webp', delay: '0.3s'},
-        {alt: 'Spring Boot', src: '/images/langs/spring-boot.webp', delay: '0.6s'},
-        {alt: 'Pandas', src: '/images/langs/pandas.webp', delay: '0.5s'},
+        {alt: 'React', src: 'images/langs/react.webp', delay: '0.3s'},
+        {alt: 'Spring Boot', src: 'images/langs/spring-boot.webp', delay: '0.6s'},
+        {alt: 'Pandas', src: 'images/langs/pandas.webp', delay: '0.5s'},
     ]
 
     const showKnowledges = (k) => {
-        
         return (
             <li>
                 <img className={`h-20 animate-float`} style={{animationDelay: k.delay}} src={k.src} alt={k.alt} />
@@ -40,7 +39,7 @@ export const Main = () => {
                             showKnowledges(t)
                         ))}
                     </ul>
-                    <img className="h-44 absolute bottom-24 left-36 animate-arise select-none" src="/images/hand.webp"/>
+                    <img className="h-44 absolute bottom-24 left-36 animate-arise select-none" src="images/hand.webp"/>
                     <span className="bg-green-350 h-96 w-96 rounded-full absolute -z-50 select-none"></span>
                 </div>
             </div>
