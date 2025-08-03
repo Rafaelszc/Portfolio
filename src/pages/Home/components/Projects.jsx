@@ -5,14 +5,14 @@ export const Projects = () => {
             description: "A cafeteria application with modern design and oAuth2 authentication. ☕",
             image: "images/projects/coffeebabe.png",
             url: "https://github.com/Rafaelszc/CoffeeBabe",
-            skills: ["React", "Tailwind", "Spring Boot", "PostgreSQL"]
+            skills: ["React", "Tailwind CSS", "Spring Boot", "PostgreSQL"]
         },
         {
             name: "GymSup Calculator",
             description: "A macronutrient calculator website with a clean design. 🍎",
             image: "images/projects/gymsup.png",
             url: "https://github.com/Rafaelszc/GymSup-Calculator",
-            skills: ["React", "Tailwind", "Spring Boot", "PostgreSQL"]
+            skills: ["React", "Tailwind CSS", "Spring Boot", "H2 Database"]
         },
         {
             name: "MyConfigs",
@@ -54,7 +54,7 @@ export const Projects = () => {
     }
     
     return (
-        <div className="m-10 ml-20 mr-20 flex flex-wrap gap-20 justify-center items-center" id="projects">
+        <div className=" p-10 pl-20 pr-20 flex flex-wrap gap-20 justify-center items-center" id="projects">
             {projects.map((p) => (
                 renderProjects(p)
             ))}
