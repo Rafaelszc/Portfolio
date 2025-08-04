@@ -31,7 +31,7 @@ export const Header = () => {
     }
 
     return (
-        <header className="h-md-header flex items-center justify-between pr-8 pl-8 sticky top-0 bg-primary-100 z-50">
+        <header className="h-md-header flex items-center justify-between pr-8 pl-8 sticky top-0 bg-primary-100 z-50 shadow-sm">
             <div>
                 <a href="/Portifolio">
                     <h1 className="select-none animate-typing border-r-2 border-r-white overflow-hidden text-3xl text-white font-medium">
