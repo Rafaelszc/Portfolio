@@ -1,7 +1,7 @@
 export const AboutMe = () => {
     return (
-        <section className="h-md-section bg-primary-50 flex flex-row justify-between items-center" id="about-me">
-            <div className="h-full w-full flex items-center ml-10">
+        <section className="h-md-section bg-primary-50 flex flex-row justify-between items-center pl-8 pr-8" id="about-me">
+            <div className="h-full w-full flex items-center justify-center">
                 <div className="p-3 bg-primary-100 shadow-md transition transform duration-700 hover:scale-110 hover:shadow-lg *:transition *:transform *:duration-700 *:hover:scale-110 *:delay-100 rounded-lg">
                     <img className="h-96 rounded-lg" src="images/me.webp" alt="" />
                 </div>
