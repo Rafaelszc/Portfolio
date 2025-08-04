@@ -24,7 +24,7 @@ This is a portfolio built with Vite, React, and Tailwind CSS to showcase the mai
 + Main section
 + About Me
 + Projects
-+ Skills (TODO)
++ Skills
 
 ## Technologies Used
 
@@ -40,7 +40,6 @@ This is a portfolio built with Vite, React, and Tailwind CSS to showcase the mai
 This project isn't finished. There are ideas that need to be finalized.
 
 - [ ] Mobile Responsiveness
-- [ ] Skills Section
 
 ## Usage
 1. Copy and paste in bash:
