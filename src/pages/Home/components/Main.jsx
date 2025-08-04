@@ -39,7 +39,7 @@ export const Main = () => {
                             showKnowledges(t)
                         ))}
                     </ul>
-                    <img className="h-44 absolute bottom-24 left-36 animate-arise select-none" src="images/hand.webp"/>
+                    <img className="h-44 absolute bottom-12 animate-arise select-none" src="images/hand.webp"/>
                     <span className="bg-green-350 h-96 w-96 rounded-full absolute -z-50 select-none"></span>
                 </div>
             </div>
