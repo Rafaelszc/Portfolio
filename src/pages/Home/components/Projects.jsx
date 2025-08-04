@@ -54,7 +54,10 @@ export const Projects = () => {
     }
     
     return (
-        <div className=" p-10 pl-20 pr-20 flex flex-wrap gap-20 justify-center items-center" id="projects">
+        <div className="flex flex-wrap gap-20 justify-center items-center p-8 pt-0" id="projects">
+            <div className="border-b border-white w-full flex justify-center items-center mt-16 pb-16">
+                <span className="text-5xl text-white font-medium">Projects</span>
+            </div>
             {projects.map((p) => (
                 renderProjects(p)
             ))}
