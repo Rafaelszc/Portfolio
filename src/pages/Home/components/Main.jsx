@@ -20,8 +20,8 @@ export const Main = () => {
     }
 
     return (
-        <main className="overflow-hidden">
-            <div className="flex flex-row items-center justify-between ml-10 mr-10 h-md-section animation-del">
+        <main className="overflow-hidden h-screen flex items-center">
+            <div className="flex w-full flex-row items-center justify-between ml-10 mr-10 h-md-section animation-del">
                 <div className="w-full animate-arise">
                     <span className="text-white text-3xl leading-normal">
                         I am <span className="text-purple-500 font-bold">Rafael</span>! <br /> Full Stack Developer
