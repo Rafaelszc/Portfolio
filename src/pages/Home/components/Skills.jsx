@@ -6,11 +6,11 @@ export const Skills = () => {
         },
         {
             skill: "Full-Stack",
-            technologies: ["HTML5", "CSS", "React", "Tailwind CSS", "Spring Boot"]
+            technologies: ["React", "Tailwind CSS", "Spring Boot", "FastAPI", "PostgreSQL"]
         },
         {
             skill: "Data Science",
-            technologies: ["NumPy", "Pandas", "Scikit-Learn", "TensorFlow", "Keras"]
+            technologies: ["NumPy", "Pandas", "Scikit-Learn", "TensorFlow", "Shap"]
         },
         {
             skill: "Dev Tools",
