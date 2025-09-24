@@ -15,25 +15,18 @@ export const Projects = () => {
             skills: ["React", "Tailwind CSS", "Spring Boot", "H2 Database"]
         },
         {
+            name: "Aprenda Machine Learning",
+            description: "A Data Science tutorial from data pre-processing to Neural Networks. 🧠",
+            image: "images/projects/learnmachinelearning.png",
+            url: "https://github.com/Rafaelszc/Aprenda-Machine-Learning",
+            skills: ["Python", "Scikit-Learn", "TensorFlow", "Keras"]
+        },
+        {
             name: "MyConfigs",
             description: "Configuration script for Fedora Linux.  🔧",
             image: "images/projects/myconfigs.png",
             url: "https://github.com/Rafaelszc/my_configs",
             skills: ["Python", "Bash", "Makefile", "Linux"]
-        },
-        {
-            name: "Discord Discount Bot",
-            description: "A Discord bot for finding discounts at the KaBum! store. 💸",
-            image: "images/projects/discord-discount.png",
-            url: "https://github.com/Rafaelszc/discord-discount-bot",
-            skills: ["Python", "Discord API", "SQLite", "Beautifullsoup"]
-        },
-        {
-            name: "IBGE Data Extract",
-            description: "A automated script that extracts municipal data from IBGE. 📊",
-            image: "images/projects/ibge-dt-ex.png",
-            url: "https://github.com/Rafaelszc/IBGE-data-extract",
-            skills: ["Python", "Beautifullsoup", "Pandas", "SQLite"]
         },
     ]
 
