@@ -1,9 +1,9 @@
-# Portifolio
+# Portfolio
 
 Welcome to my Portfolio! Here I will briefly present my career as a full stack developer and update it over time. Enjoy!
 
 ## Summary
-- [Portifolio](#portifolio)
+- [Portfolio](#portfolio)
   - [Summary](#summary)
   - [Preview](#preview)
     - [Topics of page:](#topics-of-page)
