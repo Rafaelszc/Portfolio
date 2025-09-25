@@ -16,7 +16,7 @@ Welcome to my Portfolio! Here I will briefly present my career as a full stack d
 
 ![home](docs/preview.png)
 
-<h3 align="center"><a href="https://rafaelszc.github.io/Portifolio/" target="_blank">Acess here!</a></h3>
+<h3 align="center"><a href="https://rafaelszc.github.io/Portfolio/" target="_blank">Acess here!</a></h3>
 
 This is a portfolio built with Vite, React, and Tailwind CSS to showcase the main projects I have published on GitHub. I hope to update the project, making it cleaner and more presentable as I learn new technologies.
 
@@ -47,7 +47,7 @@ This project isn't finished. There are ideas that need to be finalized.
 ```bash
 git clone https://github.com/Rafaelszc/Portifolio.git
 
-cd Portifolio/
+cd Portfolio/
 ```
 
 2. Install dependencies
